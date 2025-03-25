@@ -2,16 +2,14 @@
 
 💻 Senior Rust Engineer and Senior Flutter Developer
 
-💻 Front-end engineer with experience with [Dioxus (Rust framework React based)](https://github.com/DioxusLabs/dioxus), Svelte and Flutter
-
 💬 [LinkedIn]([https://www.linkedin.com/in/lgmarchi/](https://www.linkedin.com/in/lgmarchi-software-engineer/)) 
 
 ## 😀 About me
-Senior Software developer with over 5 years of experience, centering my expertise on Rust and also proficient in Dioxus (a React-based framework), Flutter, and Svelte. I began my journey by leading the development of a mobile application from the ground up, integrating Firebase for authentication and real-time data. This experience strengthened my foundation in cross-platform development, Agile methodologies, and team leadership.
+A passionate software engineer with over 8 years of experience, Lucas found his purpose in building high-performance and scalable applications. Specializing in Rust, he thrives using libraries like Tokio, Actix Web, Axum, Rayon, Serde, and Sqlx, creating reliable systems and optimizing performance with advanced multithreading. With solid experience in PostgreSQL, MySQL, MongoDB, and Firestore, Lucas ensures every solution is built to last.
 
-In recent years, I have focused on the Rust ecosystem, mastering the language to build high-performance, multi-platform solutions—including desktop applications for Windows, macOS, and Linux—with a Warp backend. I have also broadened my skill set with Svelte and Capacitor, creating robust web and mobile applications that incorporate advanced video and low-latency communication features using PeerJS and Trystero.
+In the mobile world, Lucas has successfully launched his own apps and contributed to projects impacting over 10 million users. Using Flutter and mastering state managers like MobX, Bloc, and GetX, he crafts smooth, intuitive experiences that users love.
 
-I thrive in collaborative environments and maintain a results-oriented mindset, continually refining my skills to deliver impactful solutions that meet business needs and offer an exceptional user experience.
+Recognized by colleagues as a friendly and creative teammate, Lucas stands out for his fast problem-solving skills and dedication to clean, maintainable code. Constantly learning and evolving, he is always ready for the next challenge.
 
 ## :fire: Open-source Projects
 
