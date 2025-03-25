@@ -1,10 +1,10 @@
 # Hello, Guys! I'm Lucas Marchi :metal: 
 
-💻 Rust Engineer on [Satellite.im](https://github.com/Satellite-im) 
+💻 Senior Rust Engineer and Senior Flutter Developer
 
 💻 Front-end engineer with experience with [Dioxus (Rust framework React based)](https://github.com/DioxusLabs/dioxus), Svelte and Flutter
 
-💬 [LinkedIn](https://www.linkedin.com/in/lgmarchi/) 
+💬 [LinkedIn]([https://www.linkedin.com/in/lgmarchi/](https://www.linkedin.com/in/lgmarchi-software-engineer/)) 
 
 ## 😀 About me
 Senior Software developer with over 5 years of experience, centering my expertise on Rust and also proficient in Dioxus (a React-based framework), Flutter, and Svelte. I began my journey by leading the development of a mobile application from the ground up, integrating Firebase for authentication and real-time data. This experience strengthened my foundation in cross-platform development, Agile methodologies, and team leadership.
@@ -22,17 +22,14 @@ Uplink is written in pure Rust with a UI in Dioxus (which is also written in Rus
 
 The goal should be to build a hyper-customizable application that can run anywhere and support extensions.
 
-### [Uplink Web]()
-Privacy First, Modular, P2P messaging client built atop Warp.
+### [Rust with Actix Web and MySQL](https://github.com/lgmarchi/money-way)
 
-Uplink is written in TS with Svelte. It is developed as a new foundation for implementing Warp features in a universal application.
-
-The goal should be to build a hyper-customizable application that can run anywhere and support extensions.
+### [Simple Blockchain with Rust](https://github.com/lgmarchi/rust-blockchain-project-01)
 
 ## ⚙️ Technologies and Tools
 ![](https://img.shields.io/badge/Code-Rust-informational?style=flat&logo=rust&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Dioxus-informational?style=flat&logo=rust&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Svelte-informational?style=flat&logo=svelte&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Javascript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Typescript-informational?style=flat&logo=typescript&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=2bbc8a)
