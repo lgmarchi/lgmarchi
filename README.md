@@ -5,11 +5,11 @@
 💬 [LinkedIn]([https://www.linkedin.com/in/lgmarchi/](https://www.linkedin.com/in/lgmarchi-software-engineer/)) 
 
 ## 😀 About me
-A passionate software engineer with over 8 years of experience, Lucas found his purpose in building high-performance and scalable applications. Specializing in Rust, he thrives using libraries like Tokio, Actix Web, Axum, Rayon, Serde, and Sqlx, creating reliable systems and optimizing performance with advanced multithreading. With solid experience in PostgreSQL, MySQL, MongoDB, and Firestore, Lucas ensures every solution is built to last.
+I'm a passionate software engineer with over 8 years of experience, and I've found my purpose in building high-performance, scalable applications. Specializing in Rust, I love working with libraries like Tokio, Actix Web, Axum, Rayon, Serde, and Sqlx to create reliable systems and optimize performance through advanced multithreading. I'm also well-versed in databases like PostgreSQL, MySQL, MongoDB, and Firestore, always aiming to build solutions that are robust and built to last.
 
-In the mobile world, Lucas has successfully launched his own apps and contributed to projects impacting over 10 million users. Using Flutter and mastering state managers like MobX, Bloc, and GetX, he crafts smooth, intuitive experiences that users love.
+In the mobile space, I've launched my own apps and contributed to projects that have reached over 10 million users. Using Flutter, along with state managers like MobX, Bloc, and GetX, I focus on crafting smooth and intuitive user experiences.
 
-Recognized by colleagues as a friendly and creative teammate, Lucas stands out for his fast problem-solving skills and dedication to clean, maintainable code. Constantly learning and evolving, he is always ready for the next challenge.
+Colleagues often describe me as a friendly and creative teammate, known for quick problem-solving and a strong commitment to clean, maintainable code. I'm constantly learning and evolving, always ready to take on the next big challenge.
 
 ## :fire: Open-source Projects
 
