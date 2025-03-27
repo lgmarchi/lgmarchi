@@ -1,30 +1,82 @@
 # Hello, Guys! I'm Lucas Marchi :metal: 
 
-💻 Senior Rust Engineer and Senior Flutter Developer
+💻 **Senior Rust Engineer and Senior Flutter Developer**  
+💬 [LinkedIn](https://www.linkedin.com/in/lgmarchi-software-engineer/)  
+📫 lucasgmarchi@gmail.com  
+💻 [GitHub](https://github.com/lgmarchi)
 
-💬 [LinkedIn]([https://www.linkedin.com/in/lgmarchi/](https://www.linkedin.com/in/lgmarchi-software-engineer/)) 
 
-## 😀 About me
-I'm a passionate software engineer with over 8 years of experience, and I've found my purpose in building high-performance, scalable applications. Specializing in Rust, I love working with libraries like Tokio, Actix Web, Axum, Rayon, Serde, and Sqlx to create reliable systems and optimize performance through advanced multithreading. I'm also well-versed in databases like PostgreSQL, MySQL, MongoDB, and Firestore, always aiming to build solutions that are robust and built to last.
 
-In the mobile space, I've launched my own apps and contributed to projects that have reached over 10 million users. Using Flutter, along with state managers like MobX, Bloc, and GetX, I focus on crafting smooth and intuitive user experiences.
+## 😀 About Me  
+---------- 🦀 ⚠️ JEDI MASTER DEV SPOTTED ⚠️🦀 -------------
 
-Colleagues often describe me as a friendly and creative teammate, known for quick problem-solving and a strong commitment to clean, maintainable code. I'm constantly learning and evolving, always ready to take on the next big challenge.
+👨‍💻 **Senior Rust Engineer | Senior Flutter Developer**  
+🧠 8+ years of experience in fullstack software development  
+📱 Built apps with 1,000+ downloads and 300+ active users  
+⚡ Known for creative problem-solving, performance-driven code, result-oriented, and fast delivery  
+🧪 80%+ test coverage | 🚀 MVPs launched in 3 months | 🧵 Hardcore multithreading expert
 
-## :fire: Open-source Projects
 
-### [Uplink Desktop](https://github.com/Satellite-im/Uplink)
-Privacy First, Modular, P2P messaging client built atop Warp.
+## 📂 Latest Projects
 
-Uplink is written in pure Rust with a UI in Dioxus (which is also written in Rust). It was developed as a new foundation for implementing Warp features in a universal application.
+### **Satellite.im** (Senior Rust Engineer – Fullstack)
 
-The goal should be to build a hyper-customizable application that can run anywhere and support extensions.
+🖥️ Multi-platform support: Windows, macOS, Linux, Web, iOS, Android  
+🔐 Implemented JWT + Role-Based Access in Actix Web  
+🧵 Reduced system latency by 45% using advanced multithreading in Rust  
+💬 Built full-featured chat app (group chats, file sharing, friend system) with Dioxus  
+📉 Reduced structured data errors by 20% with Serde improvements  
+📞 WebRTC integration for group calls & screen sharing  
+🚀 Delivered mobile MVP in just 3 months  
+🤝 Collaborated with QA to reduce production bugs by 15%
 
-### [Rust with Actix Web and MySQL](https://github.com/lgmarchi/money-way)
 
-### [Simple Blockchain with Rust](https://github.com/lgmarchi/rust-blockchain-project-01)
+### **Xports App** (Co-founder | Senior Flutter Developer)
+
+📲 1,000+ downloads | 300+ users in live tournaments and games  
+🧪 Built 3 separate apps and tested them in real-world conditions (field testing included)  
+⚙️ Designed real-time Cloud Functions to reduce manual tasks by 40%  
+📹 Optimized video processing by switching from Flutter to native (Swift & Kotlin)  
+🔧 Fixed 2 major production blockers, boosting stability by 80%
+
+
+## 🛠️ Tech Stack Highlights
+
+**Rust**: Tokio, Actix Web, Axum, Rayon, Serde, Sqlx, Dioxus  
+**Flutter**: Dart, MobX, Bloc, GetX, Firebase, LCOV  
+**Databases**: MySQL, Postgres, Firestore, MongoDB  
+**General**: Git, Jira, Kanban, CI/CD, Scrum, JavaScript, TypeScript, Svelte
+
+
+## 🎓 Education
+
+**BSc in Mechanical Engineering**  
+São Bernardo do Campo, Brazil  
+*Technical research in mobile Java for engineering problems*
+
+
+## 🌎 Languages
+
+🇧🇷 Portuguese: Native  
+🇺🇸 English: Proficient
+
+
+## 🔥 Open-source Projects
+
+### [Uplink Desktop](https://github.com/Satellite-im/Uplink)  
+Privacy-first, modular, P2P messaging client built atop Warp.  
+UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
+
+### [Rust with Actix Web and MySQL](https://github.com/lgmarchi/money-way)  
+Basic money tracker using Rust backend with ActixWeb + Auth JWT + MySQL.
+
+### [Simple Blockchain with Rust](https://github.com/lgmarchi/rust-blockchain-project-01)  
+A minimal blockchain implementation in Rust for learning purposes.
+
+---
 
 ## ⚙️ Technologies and Tools
+
 ![](https://img.shields.io/badge/Code-Rust-informational?style=flat&logo=rust&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Dioxus-informational?style=flat&logo=rust&logoColor=white&color=2bbc8a)
