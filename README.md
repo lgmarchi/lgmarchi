@@ -22,7 +22,6 @@
 ### **Satellite.im** (Senior Rust Engineer – Fullstack)
 
 🖥️ Multi-platform support: Windows, macOS, Linux, Web, iOS, Android  
-🔐 Implemented JWT + Role-Based Access in Actix Web  
 🧵 Reduced system latency by 45% using advanced multithreading in Rust  
 💬 Built full-featured chat app (group chats, file sharing, friend system) with Dioxus  
 📉 Reduced structured data errors by 20% with Serde improvements  
