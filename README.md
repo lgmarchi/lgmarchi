@@ -41,10 +41,10 @@
 
 ## 🛠️ Tech Stack Highlights
 
-**Rust**: Tokio, Actix Web, Axum, Rayon, Serde, Sqlx, Dioxus  
-**Flutter**: Dart, MobX, Bloc, GetX, Firebase, LCOV  
-**Databases**: MySQL, Postgres, Firestore, MongoDB  
-**General**: Git, Jira, Kanban, CI/CD, Scrum, JavaScript, TypeScript, Svelte
+**Rust**: Tokio, Axum, Serde, Sqlx  
+**Flutter**: Dart, MobX, Bloc, GetX, Firebase
+**Databases**: Postgres, Firestore  
+**General**: Git, Jira, Kanban, CI/CD, Scrum
 
 
 ## 🎓 Education
@@ -65,12 +65,6 @@ São Bernardo do Campo, Brazil
 ### [Uplink Desktop](https://github.com/Satellite-im/Uplink)  
 Privacy-first, modular, P2P messaging client built atop Warp.  
 UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
-
-### [Rust with Actix Web and MySQL](https://github.com/lgmarchi/money-way)  
-Basic money tracker using Rust backend with ActixWeb + Auth JWT + MySQL.
-
-### [Simple Blockchain with Rust](https://github.com/lgmarchi/rust-blockchain-project-01)  
-A minimal blockchain implementation in Rust for learning purposes.
 
 ---
 
