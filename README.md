@@ -8,14 +8,26 @@
 ## 😀 Summary
  Software Engineer with 8 years of experience across data analysis, mobile development, and backend systems. Over the last 3 years focused on Rust, building APIs and async services using technologies such as Tokio, Axum, and PostgreSQL. Experience working with AWS infrastructure, real-time applications, and AI integrations.
 
-**Core Languages**: Rust · Flutter  
-**Rust Ecosystem**: Tokio · Axum · SQLx · Serde · Tower · Barnacle-rs · Utoipa (API Documentation) · SeaORM · CodeLLDB (Debug)  
-**Databases**: PostgreSQL · Firebase · Supabase · Redis  
-**AI Integration**: LLM Integration · Rig · Prompt Pipelines · AWS Rekogntion  
-**AWS**: S3 · Rekognition · SNS · SQS  
-**Backend & Systems**: Async Systems · REST APIs · Background Jobs · Rate Limiting · API Authentication  
-**Frontend & Mobile**: Flutter · Dioxus  
-**Tools**: Git · GitHub · Linear · Postman · DBeaver · Cursor · Opencode · Slack · Discord
+- **Core Languages**: Rust · Flutter  
+- **Rust Ecosystem**: Tokio · Axum · SQLx · Serde · Tower · Barnacle-rs · Utoipa (API Documentation) · SeaORM · CodeLLDB (Debug)  
+- **Databases**: PostgreSQL · Firebase · Supabase · Redis  
+- **AI Integration**: LLM Integration · Rig · Prompt Pipelines · AWS Rekogntion  
+- **AWS**: S3 · Rekognition · SNS · SQS  
+- **Backend & Systems**: Async Systems · REST APIs · Background Jobs · Rate Limiting · API Authentication  
+- **Frontend & Mobile**: Flutter · Dioxus  
+- **Tools**: Git · GitHub · Linear · Postman · DBeaver · Cursor · Opencode · Slack · Discord
+
+## 🔥 Open-source Projects
+
+### barnacle-rs
+Rate limiting and API key validation middleware for Axum with Redis backend.
+- [crate](https://crates.io/crates/barnacle-rs)
+- [github repo](https://github.com/zyphelabs/barnacle-rs.git)
+
+### Uplink Desktop  
+Privacy-first, modular, P2P messaging client built atop Warp.  
+UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
+- [github repo](https://github.com/Satellite-im/Uplink)
 
 ## 📂 Latest Projects
 
@@ -53,36 +65,16 @@ _Overall, Satellite IM's combination of privacy, security, high-quality communic
 - Optimized video editing performance by transitioning from Flutter to native Swift, preventing video corruption.
 - Resolved two critical production-blocking issues, preparing the application for production and increasing efficiency by over 80%.
 
-
 ## 🎓 Education
 
 **BSc in Mechanical Engineering**  
 São Bernardo do Campo, Brazil  
 *Technical research in mobile Java for engineering problems*
 
-
 ## 🌎 Languages
 
 🇧🇷 Portuguese: Native  
 🇺🇸 English: Proficient
-
-
-## 🔥 Open-source Projects
-
-### [barnacle-rs](https://github.com/zyphelabs/barnacle-rs.git)
-Rate limiting and API key validation middleware for Axum with Redis backend.
-
-### Features:  
-  **Rate Limiting**: IP-based or custom key-based rate limiting  
-  **API Key Validation**: Validate x-api-key header with per-key limits  
-  **Redis Backend**: Distributed rate limiting with Redis  
-  **Axum Middleware**: Drop-in middleware for Axum applications  
-  **Reset on Success**: Optional rate limit reset on successful operations  
-  **Extensible Design**: Custom key stores and rate limiting strategies
-
-### [Uplink Desktop](https://github.com/Satellite-im/Uplink)  
-Privacy-first, modular, P2P messaging client built atop Warp.  
-UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
 
 ---
 
