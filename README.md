@@ -62,6 +62,17 @@ São Bernardo do Campo, Brazil
 
 ## 🔥 Open-source Projects
 
+### [barnacle-rs](https://github.com/zyphelabs/barnacle-rs.git)
+Rate limiting and API key validation middleware for Axum with Redis backend.
+
+### Features:  
+  **Rate Limiting**: IP-based or custom key-based rate limiting  
+  **API Key Validation**: Validate x-api-key header with per-key limits  
+  **Redis Backend**: Distributed rate limiting with Redis  
+  **Axum Middleware**: Drop-in middleware for Axum applications  
+  **Reset on Success**: Optional rate limit reset on successful operations  
+  **Extensible Design**: Custom key stores and rate limiting strategies
+
 ### [Uplink Desktop](https://github.com/Satellite-im/Uplink)  
 Privacy-first, modular, P2P messaging client built atop Warp.  
 UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
