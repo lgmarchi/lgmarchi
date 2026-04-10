@@ -34,36 +34,34 @@ UI written entirely in Dioxus (Rust). Hyper-customizable & multi-platform.
 ### **[Zyphe](https://www.zyphe.com/)** (Senior Backend Rust Engineer)
 _Zyphe is a trusted, modern compliance platform that's transforming how businesses handle KYC (Know Your Customer), AML (Anti-Money Laundering), and KYB (Know Your Business) verification across the US, EU, and other global markets. We offer decentralized identity solutions that make onboarding faster with enterprise-grade security, all while keeping user privacy at the forefront._
 
-- Built high-performance backend services in Rust (Axum, PostgreSQL) focused on reliability, low latency, and scalable API execution.
-- **Reduced infrastructure costs at least 20%** by replacing Regula Liveness with an in-house anti-spoofing pipeline, leveraging AWS Rekognition and biometric verification.
-- Optimized background job processing with Apalis, designing a database polling strategy that improved throughput while **reducing infrastructure costs at least 40%**.
-- Integrated distributed **AWS services** (S3, SQS, SNS, Rekognition) to support scalable asynchronous processing and system reliability.
-- Built an **AI orchestration layer using Rig**, enabling image and document analysis across multiple models and providers. Specially Amazon Bedrock and OpenAI.
-- **Created [barnacle-rs](https://github.com/zyphelabs/barnacle-rs.git)**, a Rust crate extending Tower Governor with API key authentication and advanced rate limiting (per user, email, UUID), improving API security, and give more control for developers.
-- Implemented a multi-model AI orchestration layer using Rig, enabling document and image analysis across different LLM providers with structured prompt pipelines.
+• 𝗖𝘂𝘁 𝗶𝗻𝗳𝗿𝗮𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 𝗰𝗼𝘀𝘁𝘀 𝗯𝘆 𝟰𝟬% by redesigning background job processing — replaced Apalis's default 100ms blind polling (230 queries/sec across 23 job queues) with PostgreSQL LISTEN/NOTIFY and tiered poll intervals (1s–60s based on job urgency), reducing polling overhead by ~𝟵𝟴%.  
+• 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝗲𝗱 𝗮𝗻𝗱 𝗯𝘂𝗶𝗹𝘁 𝘁𝗵𝗲 𝗲𝗻𝘁𝗶𝗿𝗲 𝗯𝗶𝗼𝗺𝗲𝘁𝗿𝗶𝗰 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝘀𝘆𝘀𝘁𝗲𝗺 — liveness detection, anti-spoofing (occlusion, face consistency), and face matching. Migrated from a third-party provider to an in-house pipeline using ONNX Runtime and AWS Rekognition, reducing liveness detection costs by 20%+ and later extracting it as an independent microservice.  
+• 𝗕𝘂𝗶𝗹𝘁 𝗮𝗻 𝗔𝗜 𝗼𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 𝗹𝗮𝘆𝗲𝗿 serving multiple LLM providers (Amazon Bedrock, OpenAI) through Rig, enabling image and document analysis with structured prompt pipelines  
+• 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗮𝗻𝗱 𝗼𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲𝗱 𝗯𝗮𝗿𝗻𝗮𝗰𝗹𝗲-𝗿𝘀 (published on crates.io), a Rust middleware for Axum that extends Tower Governor with API key authentication and per-user/email/UUID rate limiting — used in production to protect all customer-facing APIs.  
+
+𝗦𝘁𝗮𝗰𝗸: Rust · Axum · Tokio · PostgreSQL · SQLx · Redis · AWS (S3, SQS, SNS, Rekognition, Bedrock) · Apalis · Rig · Tower
 
 ### **[Satellite.im - Open Source project](https://github.com/Satellite-im)** (Senior Software Engineer - Rust, Flutter, and Svelte)
 _Overall, Satellite IM's combination of privacy, security, high-quality communication, flexibility, and community focus makes it a compelling choice for users seeking a secure and decentralized messaging platform._
 
-- Developed cross-platform application features for Windows, macOS, Linux, Web, and mobile (iOS/Android), ensuring consistent behavior across desktop and mobile environments.
-- Built frontend and client-side systems in Rust, **handling real-time chat, notifications, and concurrent UI operations** without blocking the main application thread.
-- **Implemented high-concurrency workflows using Tokio**, enabling simultaneous uploads, downloads, and background processing while maintaining a responsive UI.
-- Designed multi-threaded solutions for OS-specific features such as clipboard image/video handling on Linux, preventing UI freezes during heavy operations.
-- Optimized real-time chat input processing using Rust smart pointers and efficient memory handling, supporting per-character transformations (e.g., emoji parsing and typing indicators).
-- Developed WebRTC peer-to-peer communication features, including group calls and screen sharing, while resolving issues impacting multi-user sessions.
-- **Reduced structured data read errors by 20%** by resolving serialization/deserialization issues using Serde.
-- Led development of a mobile application MVP, **delivering a production-ready release within 3 months**.
-- Partnered with QA to establish testing processes for the mobile app, **reducing production bugs by 15%**.
+• 𝗗𝗲𝗹𝗶𝘃𝗲𝗿𝗲𝗱 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗿𝗲𝗮𝗱𝘆 𝗺𝗼𝗯𝗶𝗹𝗲 𝗠𝗩𝗣 𝗶𝗻 𝟯 𝗺𝗼𝗻𝘁𝗵𝘀, leading development from architecture to release — establishing QA processes that reduced production bugs by 15%.  
+• 𝗥𝗲𝗱𝘂𝗰𝗲𝗱 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 𝗱𝗮𝘁𝗮 𝗲𝗿𝗿𝗼𝗿𝘀 𝗯𝘆 𝟮𝟬% by diagnosing and fixing serialization/deserialization issues across the Serde pipeline, improving data reliability across all platforms.  
+• 𝗕𝘂𝗶𝗹𝘁 𝗿𝗲𝗮𝗹-𝘁𝗶𝗺𝗲 𝗰𝗵𝗮𝘁 𝗮𝗻𝗱 𝗪𝗲𝗯𝗥𝗧𝗖 𝘀𝘆𝘀𝘁𝗲𝗺𝘀 supporting group calls, screen sharing, and per-character input processing (emoji parsing, typing indicators).  
+• 𝗦𝗵𝗶𝗽𝗽𝗲𝗱 𝗰𝗿𝗼𝘀𝘀-𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝟲 𝘁𝗮𝗿𝗴𝗲𝘁𝘀 (Windows, macOS, Linux, Web, iOS, Android), including OS-specific multi-threaded solutions for clipboard handling that eliminated UI freezes during heavy media operations.  
+• 𝗜𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗲𝗱 𝗵𝗶𝗴𝗵-𝗰𝗼𝗻𝗰𝘂𝗿𝗿𝗲𝗻𝗰𝘆 𝗳𝗶𝗹𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿 𝘄𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀 𝘂𝘀𝗶𝗻𝗴 𝗧𝗼𝗸𝗶𝗼, enabling simultaneous uploads, downloads, and background processing while maintaining responsive UI across all platforms.  
+
+𝗦𝘁𝗮𝗰𝗸: Rust · Tokio · Dioxus · Serde · WebRTC · Svelte · TypeScript · Flutter
 
 
 ### **Xports App** (Co-founder | Senior Flutter Developer)
 
-- Achieved over 1,000 downloads in the App Store and Play Store.
-- Over 300 users engaging with our application across various games and tournaments.
-- Played a crucial role in building 3 unique applications, conducting continuous real-world testing, including field testing, to refine user experience and ensure optimal functionality.
-- Developed and optimized Cloud Functions for real-time data processing, triggers, and automated background tasks, reducing manual intervention by 40%.
-- Optimized video editing performance by transitioning from Flutter to native Swift, preventing video corruption.
-- Resolved two critical production-blocking issues, preparing the application for production and increasing efficiency by over 80%.
+• 𝗖𝗼-𝗳𝗼𝘂𝗻𝗱𝗲𝗱 𝗮𝗻𝗱 𝘀𝗵𝗶𝗽𝗽𝗲𝗱 𝗮 𝘀𝗽𝗼𝗿𝘁𝘀 𝘁𝗼𝘂𝗿𝗻𝗮𝗺𝗲𝗻𝘁 𝗽𝗹𝗮𝘁𝗳𝗼𝗿𝗺 𝘁𝗼 𝗔𝗽𝗽 𝗦𝘁𝗼𝗿𝗲 𝗮𝗻𝗱 𝗣𝗹𝗮𝘆 𝗦𝘁𝗼𝗿𝗲 — 1,000+ downloads, 300+ active users across 3 applications built from scratch.  
+• 𝗥𝗲𝘀𝗼𝗹𝘃𝗲𝗱 𝟮 𝗰𝗿𝗶𝘁𝗶𝗰𝗮𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻-𝗯𝗹𝗼𝗰𝗸𝗶𝗻𝗴 𝗯𝘂𝗴𝘀 that were preventing release, increasing application stability by 80% and unblocking the production launch.  
+• 𝗥𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝗱 𝗙𝗶𝗿𝗲𝘀𝘁𝗼𝗿𝗲 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝘀𝗰𝗵𝗲𝗺𝗮 𝘁𝗼 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲 𝗿𝗲𝗮𝗱/𝘄𝗿𝗶𝘁𝗲 𝗽𝗮𝘁𝘁𝗲𝗿𝗻𝘀, reducing redundant document reads and lowering Firebase costs through denormalization and efficient query design.  
+• 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝘁𝗲𝗱 𝘃𝗶𝗱𝗲𝗼 𝗰𝗼𝗿𝗿𝘂𝗽𝘁𝗶𝗼𝗻 𝗶𝘀𝘀𝘂𝗲𝘀 𝗯𝘆 𝗺𝗶𝗴𝗿𝗮𝘁𝗶𝗻𝗴 𝘃𝗶𝗱𝗲𝗼 𝗲𝗱𝗶𝘁𝗶𝗻𝗴 𝗳𝗿𝗼𝗺 𝗙𝗹𝘂𝘁𝘁𝗲𝗿 𝘁𝗼 𝗻𝗮𝘁𝗶𝘃𝗲 𝗦𝘄𝗶𝗳 𝗮𝗻𝗱 𝗞𝗼𝘁𝗹𝗶𝗻, solving a cross-platform limitation that was breaking user-generated content.  
+• 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗲𝗱 𝟰𝟬% 𝗼𝗳 𝗺𝗮𝗻𝘂𝗮𝗹 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗯𝘆 𝗯𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗖𝗹𝗼𝘂𝗱 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝘀 for real-time data processing, event triggers, and background tasks — reducing the need for manual intervention in tournament management.  
+
+𝗦𝘁𝗮𝗰𝗸: Flutter · Dart · Firebase · Firestore · Cloud Functions · Swift · Kotlin · App Store · Play Store
 
 ## 🎓 Education
 
